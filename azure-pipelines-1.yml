@@ -43,7 +43,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: True
-    arguments: '--confuguration $(BuildConfiguration) --output $(Build.AtrifactStagingDirectory)'
+    arguments: '--confuguration $(buildConfiguration) --output $(Build.AtrifactStagingDirectory)'
     zipAfterPublish: True
 
 
